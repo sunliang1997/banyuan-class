@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .comtainer{
+        width: 280px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 200px;
+        overflow: hidden;/* 这里是展示框 */
+    }
+
+    .child{
+        width: 1600px;
+        height: 300px;
+        }
+
+
+    img{
+       
+        width: 280px;
+        height: 300px;
+        float: left;
+        position: relative;
+        animation: move   10s   infinite;  /* 这里是10s一轮回 ，无限次 */
+
+    }
+
+    @keyframes move{/* 使画面动起来  */
+           0%{left:0px;}
+           25%{left:-280px;}
+           50%{left:-560px;}
+           75%{left:-840px;}
+           100%{left:-1120px;} /*这边的距离是图片本身大小距离相加（280+280*2+...)  */
+    }
+
+
+
+
+
+</style>
+<body>
+    <div class="comtainer">
+        <div class="child">
+            <img src="./1.jpg" alt="">
+            <img src="./2.jpg" alt="">
+            <img src="./3.jpg" alt="">
+            <img src="./4.jpg" alt="">
+            <img src="./1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
