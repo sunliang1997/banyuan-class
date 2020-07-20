@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>github</title>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
@@ -109,26 +108,180 @@
         .center{
 
             width: 100%;
-            height: 715px;
-            background-color: chartreuse;
+            
+            background-color: #fff;
             float: left;
         } 
         .center-box{
-            width: 700px;
-            height: 701px;
-            border: 1px solid red;
+            /* width: 700px; */
+            width: 100%;
+            /* border: 1px solid#e1e4e8; */
             margin: 0 300px 0 300px;
             margin: 0 auto;
 
         } 
+        .center-box-mainbody{
+            width: 549px;
+            /* border:3px solid black; */
+            margin: 0 auto;
+            
+
+        }
         .center-box-top{
             width: 549px;
             height: 232px;
-            border:1px solid red;
-            margin: 0 auto;
+            border:1px solid #e1e4e8;
+            border-radius: 6px;
+
+            
             margin-top: 16px;
 
         }
+
+        .center-box-top-top{
+            width: 484px;
+            height: 200px;
+            /* border:1px solid #e1e4e8;    */
+            margin: 0 auto;
+            position: relative;
+            top: 50%;
+            transform: translate(0,-50%);
+
+        }
+        .center-box-top-top-top{
+            
+            height: 70px;
+            font-size: 24px;
+            font-weight: 600;
+            /* border:1px solid #e1e4e8; */
+
+        }
+        .center-box-top-top-conter{
+           
+            height: 40px;
+            /* border:1px solid #e1e4e8; */
+            margin-top: 8px;
+            font-size: 16px
+
+        }
+        .center-box-top-top-bottom{
+            
+            height: 32px;
+            border:1px solid rgba(27,31,35,.15);
+            font-size: 14px;
+            margin-top: 18px;
+            Border-radius:10px; 
+            color: #0366d6;
+            background-color: #fafbfc;
+            padding: 5px 16px;
+
+  
+
+        }
+         /* 中间内容中间部分 */
+
+        .center-box-center{
+            /* width: 549px; */
+            height: 60px;
+            /* border:1px solid orange; */
+            margin-top: 24px;
+            
+
+        }
+        .center-box-center-logo{
+            float: left;
+        }
+
+
+
+
+
+        .center-box-center-text{
+            font-size: 12px;
+            float: left;
+            margin-top: 5px;
+        }
+
+
+      .center-box-center-bottom{
+        float: left;
+        font-size:12px;
+
+
+      }
+        
+
+
+
+      .center-box-bottom{
+         
+          height: 160px;
+          /* border:1px solid red; */
+          margin-top: 10px;
+          
+          
+      }
+      
+      .center-box-bottom-left{
+          
+          /* height: px; */
+          float: left;
+          margin-right: 32px;
+          /* position: relative;  */
+
+          
+
+      }
+
+      .center-box-bottom-left-logo{
+          display: inline-block;
+          width: 32px;
+          height: 24px;
+          
+          /* float: left; */
+          
+          /* position: absolute; */
+      }
+
+    .center-box-bottom-logo-text{
+        display: inline-block;
+        font-size:12px;
+        /* float: left;  */
+        margin-left: 8px;
+        
+    }
+    .center-box-bottom-right-firstrow{
+        /* width: 120px;  */
+        height: 110px; 
+        font-size: 12px;
+        
+        margin-left: 24px;
+        float: left;
+
+    }
+    .center-box-bottom-right-secondrow{
+        /* width: 120px;  */
+        height: 110px; 
+        font-size: 12px;
+        margin-left: 24px;
+        float: left;
+        
+
+    }
+    .center-box-bottom-right-thirdrow{
+        /* width: 120px;  */
+        height: 110px; 
+        font-size: 12px;
+        margin-left: 24px;
+        float: left;
+        
+
+    }
+
+
+
+
+
         
         
           
@@ -180,8 +333,8 @@
         /* 左边 */
          .left-content{
             width: 301px;
-            height:715px;
-            background-color: aliceblue;
+            
+            background-color: #fff;
             float: left;
             margin-left: -100%;
             padding: 0 24px 0 24px;
@@ -199,6 +352,8 @@
          height: 150px;
          border:1px solid white ;
          margin-top: 32px;
+         float: left;
+         position: relative;
                      
         }
 
@@ -213,8 +368,7 @@
 
          .New{
             float: right;
-             /* margin-left: 270px;  */
-             /* top: 28px; */
+             
              margin-top: -20px;
              background-color:#2ea44f;
              color: honeydew;
@@ -225,11 +379,17 @@
 
 
          .Find{
-            width: 296px;
+            width:301px;
             height: 20px;
-            margin-top: -220px;
-            margin-bottom: 16px;
-            Border-radius:4px;
+            Border-radius:6px;
+            border: 1px solid #e1e4e8;
+             display: block;
+            font-size: 14px;
+            padding: 5px 0 12px 0;
+           
+            
+
+
             
          }
 
@@ -253,29 +413,44 @@
             
 
         }  
-        .left-content-bottom-top{
+         /* .left-content-bottom-top{
             width: 301px;
             height: 54px;
-            border:1px solid white;
+             border:1px solid #e1e4e8;
+            border-left:none;
+            border-right:none;
+            border-bottom:none;
+            margin-top: 16px; 
+
             
 
 
-        }
+        }  */
         .left-content-bottom-top-content{
-            margin-top: 40px;
+            margin-top: 80px;
+            /* border:1px solid #e1e4e8; */
+            /* border-left:none;
+            border-right:none;
+            border-bottom:none;
+            margin-top: 16px;
+            font-weight: 600; */
+            
+
         }
         
-        .left-content-bottom-center{
+        /* .left-content-bottom-center{
             width: 301px;
             height: 90px;
             border:1px solid white;
 
-        }
-        .left-content-bottom-top-content{
+        } */
+         .left-content-bottom-top-text{
             font-size: 14px;
             line-height: 1.5;
             margin-top: 2px;
-        }
+            color: #24292e;
+            
+        } 
         .left-content-bottom-top-bottom-content{
             width: 157px;
             height: 28px;
@@ -294,8 +469,8 @@
           /*右边  */
          .right-content{
             width: 301px;
-            height:715px;
-            background-color: aliceblue;
+            
+            background-color: #fff;
             float: left;
             margin-left: -301px;
             /* padding: 0 24px 0 24px; */
@@ -316,6 +491,10 @@
              font-size: 14px;
              color:#24292e;
              font-weight: 600;
+             border-left:none;
+            border-right:none;
+            border-bottom:none;
+             
 
              
          }
@@ -343,9 +522,12 @@
         .right-content-top-icon{
             width: 300px;
             height: 27px;
-            border:1px solid white;
+            border:1px solid #e1e4e8;
             margin-top: 33px;
             position: relative;
+            border-left:none;
+            border-right:none;
+            border-bottom:none;
             
 
 
@@ -423,9 +605,12 @@
         .right-content-conter-icon{
             width: 300px;
             height: 27px;
-            border:1px solid white;
+            border:1px solid #e1e4e8;
             margin-top: 33px;
             position: relative;
+            border-left:none;
+            border-right:none;
+            border-bottom:none;
             
 
 
@@ -668,46 +853,105 @@
 <!-- 中间内容 -->
 <div class="center">
     <div class="center-box">
-        <div class="center-box-top-top">
-            <div class="center-box-top-top-top">
-                <div class="center-box-top-top-top-top">
-                    Discover interesting projects and people to populate your personal news feed.
-    
+        <div class="center-box-mainbody">
+            <div class="center-box-top">
+                <div class="center-box-top-top">
+                    <div class="center-box-top-top-top">
+                        Discover interesting projects and people to populate your personal news feed.
+        
+                    </div>
+                    <div class="center-box-top-top-conter">
+                        Your news feed helps you keep up with recent activity on repositories you watch and people you follow.
+                    </div>
+                    <button class="center-box-top-top-bottom">Explore GitHub</button>
+                    
                 </div>
-                <div class="center-box-top-top-top-conter">
-                    Your news feed helps you keep up with recent activity on repositories you watch and people you follow.
-                </div>
-                <div class="center-box-top-top-top-bottom"></div>
+                
             </div>
-            
+            <!-- 中间内容上部分结束 -->
+    
+                  <!-- 中间内容中间部分 -->
+            <div class="center-box-center">
+                <div class="center-box-center-logo">
+                    <svg class="octicon octicon-light-bulb text-gray" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"></path></svg>
+                    ProTip!
+                </div>
+                <span class="center-box-center-text">The feed shows you events from people you follow and repositories you watch.</span>
+                <div class="center-box-center-bottom">
+                    <svg class="octicon octicon-rss mr-1" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.002 2.725a.75.75 0 01.797-.699C8.79 2.42 13.58 7.21 13.974 13.201a.75.75 0 11-1.497.098 10.502 10.502 0 00-9.776-9.776.75.75 0 01-.7-.798zM2 13a1 1 0 112 0 1 1 0 01-2 0zm.84-5.95a.75.75 0 00-.179 1.489c2.509.3 4.5 2.291 4.8 4.8a.75.75 0 101.49-.178A7.003 7.003 0 002.838 7.05z"></path></svg>Subscribe to your news feed
+
+                </div>
+    
+            </div>
+                    
+            <!-- 中间部分结束 -->
+
+
+
+
+            <div class="center-box-bottom">
+                <div class="center-box-bottom-left">
+                    <div class="center-box-bottom-logo-left">
+                        <svg height="24" style="vertical-align: middle"  viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                        <div class="center-box-bottom-logo-text">© 2020 GitHub, Inc.</div>
+                   
+                    </div>
+                   
+                 
+                 </div>
+                 
+                     <div class="center-box-bottom-right-firstrow">
+                         <ul style="list-style:none;">
+                             <li>Blog</li>
+                             <li>About</li>
+                             <li>Shop</li>
+                             <li>Contact GitHub</li>
+                             <li>Pricing</li>
+                         </ul>
+                         
+                     </div>
+
+                     <div class="center-box-bottom-right-secondrow">
+                        <ul style="list-style:none;">
+                            <li>API</li>  
+                            <li>Training</li>  
+                            <li>Status</li>  
+                            <li>Security</li>  
+                        </ul>    
+                        
+                        
+                    </div>
+
+                    <div class="center-box-bottom-right-thirdrow">
+                        <ul style="list-style:none;">
+                            <li> Terms</li>  
+                            <li>Privacy</li>  
+                            <li>Help</li>  
+                        </ul>     
+                        
+                        
+                        
+                    </div>
+
+
+
+
+
+
+
+
+
+                 
+                
+     
+     
+     
+     
+             </div>
         </div>
+        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
 
     </div>
 </div>
@@ -767,7 +1011,7 @@
             <div class="left-content-bottom-top-content">Working with a team?</div>
         </div>
         <div class="left-content-bottom-center">
-            <div class="left-content-bottom-top-content">GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.</div>
+            <div class="left-content-bottom-top-text">GitHub is built for collaboration. Set up an organization to improve the way your team works together, and get access to more features.</div>
         </div>
         <div class="left-content-bottom-top-bottom">
             <button class="left-content-bottom-top-bottom-content">Create an organization</button>
