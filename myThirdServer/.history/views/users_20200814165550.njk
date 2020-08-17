@@ -1,0 +1,23 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+
+    <div>
+        用户名：
+        <input class="name"/>
+    </div>
+    <div>
+        密码：
+        <input class="password"/>
+    </div>
+    <div>
+        <button class="regist-btn" disabled="true">注册</button>
+    </div>
+    <div class="label">
+        {% for item in users%}{% endfor %}
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script src="js/users.js"></script>
+{% endblock %}

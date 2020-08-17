@@ -1,0 +1,1 @@
+let inputName = document.getElementsByClassName('name')[0]
