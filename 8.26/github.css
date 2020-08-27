@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* 左边 */
+
+.head-left {
+    height: 60px;
+    background-color: turquoise;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.head-text {
+    color: white;
+    margin-left: 10px;
+}
+
+.head-input {
+    height: 20px;
+    margin-left: 20px;
+}
+
+.head-right {
+    height: 60px;
+    background-color: red;
+}
