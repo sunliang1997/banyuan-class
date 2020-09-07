@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: skyblue;
+}
+
+.head {
+    height: 35px;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    color: #3c3c3c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.head-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text {
+    margin-right: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 6px;
+}
+
+.left-text-one-one {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.left-text-two-one {
+    color: red;
+    margin-right: 7px;
+}
+
+.head-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text {
+    display: flex;
+    align-items: center;
+    padding: 0px 6px;
+}
+
+.right-text-one {
+    margin-right: 7px;
+}
+
+.gouwuche {
+    margin-right: 5px;
+}
+
+.right-text-two {
+    margin-right: 7px;
+}
+
+.shoucang {
+    margin-right: 7px;
+}
+
+.right-text-three {
+    margin-right: 5px;
+}
+
+.fenge {
+    color: #DDDDDD
+}
+
+.right-text-four {
+    margin-right: 7px;
+}
+
+.right-text-five {
+    margin-right: 7px;
+}
+
+.leibao {
+    margin-right: 7px;
+}
+
+.right-text-six {
+    margin-right: 7px;
+}
+
+.center-top {
+    height: 97px;
+    padding-top: 24px;
+    background-color: #fff;
+}
+
+
+/* 主体 */
+
+.center-top {
+    display: flex;
+    margin: 0 117px;
+}
+
+.center-top-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center-top-center-one {
+    display: flex;
+}
+
+.center-top-center-one-one {
+    width: 36px;
+    height: 22px;
+    background-color: #ff5000;
+    color: #FFF;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.center-top-center-one-two {
+    width: 36px;
+    height: 22px;
+    color: #ff5000;
+    margin-left: 10px;
+}
+
+.center-top-center-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-top-center-two {
+    display: flex;
+    position: relative;
+}
+
+.center-top-center-two-left {
+    width: 16px;
+    height: 24px;
+    font-size: 16px;
+    color: #666666;
+    left: 50px;
+    top: 10px;
+}
+
+.center-top-center-two-input {
+    width: 554px;
+    height: 36px;
+    right: 20px;
+    border: 2px solid #ff5000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.center-top-center-two-button {
+    width: 74px;
+    height: 40px;
+}
+
+.center-top-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-top-button-left {
+    border: 1px solid red
+}
+
+.center-top-button-right-text {
+    border: 1px solid red
+}
+
+.erweima {
+    width: 62px;
+    height: 62px;
+}
+
+.center-mid {
+    height: 522px;
+    display: flex;
+    padding: 0 107px;
+}
+
+.center-mid-top {
+    height: 30px;
+    color: #fff;
+    background-color: #ff9000;
+    display: flex;
+    align-items: center;
+}
+
+.center-mid-top-left {
+    width: 190px;
+    height: 30px;
+    margin-left: 107px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-mid-mid-left {
+    display: flex;
+    justify-content: space-between;
+    width: 216px;
+    margin: 0 10px;
+}
+
+.center-mid-mid-left-mid {
+    display: flex;
+    justify-content: space-between;
+    width: 349.36px;
+}
+
+.center-mid-mid-right {
+    display: flex;
+    justify-content: space-between;
+    width: 231.36px;
+}
+
+.center-mid-left {
+    width: 188px;
+    height: 510px;
+    border: 1px solid #ff5000;
+    border-top: none;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.center-mid-left-top {
+    padding: 1px 19px 1px 25px;
+    color: #666;
+    font-size: 14px;
+    width: 150px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-mid-left-top-img {
+    margin-left: 20px;
+}
+
+.enter-mid-middle {}
+
+.center-mid-middle-top {
+    padding: 15px 15px;
+}
+
+.center-mid-middle-mid {
+    padding: 0px 15px;
+    display: flex;
+}
+
+.center-mid-middle-mid-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-mid-right {
+    padding: 15px 0px;
+}
+
+.center-mid-middle-bot-img {
+    padding: 0px 15px;
+    width: 520px;
+    height: 178px;
+}
+
+.center-mid-middle-right {}
+
+.center-mid-middle-right-img {
+    padding: 15px 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.center-mid-middle-right-mid-img {
+    position: relative;
+    margin-left: 150px;
+    margin-top: 15px;
+}
