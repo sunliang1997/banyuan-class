@@ -1,0 +1,13 @@
+header {
+    flex-wrap: wrap;
+}
+
+.header-btn {
+    display: block;
+}
+
+.header-right {
+    flex-direction: column;
+    width: 100vw;
+    order: 2;
+}
