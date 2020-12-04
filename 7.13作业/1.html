@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .comtainer{
+        width: 144px;
+        height: 90px;
+        margin: 0 auto;
+        margin-top: 200px;
+        overflow: hidden;
+
+    }
+    .child{
+        width: 1500px;
+        height: 90px;
+        
+    }
+    img{
+
+        width: 144px;
+        height: 90px;
+        position: relative;
+        float: left;
+        animation: move   5s   infinite;  /* 这里是10s一轮回 ，无限次 */
+        
+
+    }
+
+
+    @keyframes move{
+        0%{left:0xp;}
+        25%{left:-144xp;}
+        50%{left:-288xp}
+        75%{left:-432xp}
+        100%{left:-675xp}
+    }
+
+    
+</style>
+<body>
+    <div class="comtainer">
+        <div class="child">
+            <img src="./1.jpg" alt="">
+            <img src="./2.jpg" alt="">
+            <img src="./3.jpg" alt="">
+            <img src="./4.jpg" alt="">
+            <img src="./1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
